@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BE58094B-5007-4991-A8E2-7C8F0646C484}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomeGym.Api", "src\DomeGym.Api\DomeGym.Api.csproj", "{F4024310-F62C-4A75-AE6D-3CAE71EA39D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomeGym.Application", "src\DomeGym.Application\DomeGym.Application.csproj", "{F8DA16DA-D46A-4AB7-AB5F-D8A264AE8C28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomeGym.Contracts", "src\DomeGym.Contracts\DomeGym.Contracts.csproj", "{1A6E9B40-4291-47B4-9034-07DAD58681FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomeGym.Domain", "src\DomeGym.Domain\DomeGym.Domain.csproj", "{3BB8ED61-B4E8-4757-B908-ADC43FC5FDE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomeGym.Infrastructure", "src\DomeGym.Infrastructure\DomeGym.Infrastructure.csproj", "{D90E5455-B6A2-4F9D-9EF0-F7A582FF907A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1CF78F72-5B91-4524-A7F4-E497BB617F66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomeGym.Domain.UnitTests", "tests\DomeGym.Domain.UnitTests\DomeGym.Domain.UnitTests.csproj", "{BD84D434-D999-47C8-8E59-AD201E86B28E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4024310-F62C-4A75-AE6D-3CAE71EA39D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4024310-F62C-4A75-AE6D-3CAE71EA39D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4024310-F62C-4A75-AE6D-3CAE71EA39D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4024310-F62C-4A75-AE6D-3CAE71EA39D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8DA16DA-D46A-4AB7-AB5F-D8A264AE8C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8DA16DA-D46A-4AB7-AB5F-D8A264AE8C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8DA16DA-D46A-4AB7-AB5F-D8A264AE8C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8DA16DA-D46A-4AB7-AB5F-D8A264AE8C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A6E9B40-4291-47B4-9034-07DAD58681FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6E9B40-4291-47B4-9034-07DAD58681FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6E9B40-4291-47B4-9034-07DAD58681FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6E9B40-4291-47B4-9034-07DAD58681FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB8ED61-B4E8-4757-B908-ADC43FC5FDE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB8ED61-B4E8-4757-B908-ADC43FC5FDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB8ED61-B4E8-4757-B908-ADC43FC5FDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB8ED61-B4E8-4757-B908-ADC43FC5FDE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D90E5455-B6A2-4F9D-9EF0-F7A582FF907A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90E5455-B6A2-4F9D-9EF0-F7A582FF907A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D90E5455-B6A2-4F9D-9EF0-F7A582FF907A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90E5455-B6A2-4F9D-9EF0-F7A582FF907A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD84D434-D999-47C8-8E59-AD201E86B28E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD84D434-D999-47C8-8E59-AD201E86B28E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD84D434-D999-47C8-8E59-AD201E86B28E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD84D434-D999-47C8-8E59-AD201E86B28E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4024310-F62C-4A75-AE6D-3CAE71EA39D2} = {BE58094B-5007-4991-A8E2-7C8F0646C484}
+		{F8DA16DA-D46A-4AB7-AB5F-D8A264AE8C28} = {BE58094B-5007-4991-A8E2-7C8F0646C484}
+		{1A6E9B40-4291-47B4-9034-07DAD58681FC} = {BE58094B-5007-4991-A8E2-7C8F0646C484}
+		{3BB8ED61-B4E8-4757-B908-ADC43FC5FDE0} = {BE58094B-5007-4991-A8E2-7C8F0646C484}
+		{D90E5455-B6A2-4F9D-9EF0-F7A582FF907A} = {BE58094B-5007-4991-A8E2-7C8F0646C484}
+		{BD84D434-D999-47C8-8E59-AD201E86B28E} = {1CF78F72-5B91-4524-A7F4-E497BB617F66}
+	EndGlobalSection
+EndGlobal
