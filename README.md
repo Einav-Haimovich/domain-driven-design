@@ -1,4 +1,4 @@
-# Domain Driven Design — Getting Started
+# Domain Driven Design
 
 This repo follows the construction of DomeGym, a gym session scheduling and booking system, as a vehicle for learning Domain-Driven Design. The codebase is organized as four progressive snapshots — from a flat domain model through aggregates, clean architecture, and finally a distributed system of bounded contexts — each building directly on the previous one. The course also covers strategic and conceptual DDD topics (strategic design, bounded contexts, key modeling rules) that have no corresponding code snapshot but are documented in the Concepts Reference section below.
 
